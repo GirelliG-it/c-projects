@@ -1,10 +1,17 @@
 CC = gcc
 CFLAGS = -Wall -Wextra -Wpedantic -g
 
-TARGET = hello
+TARGETS = hello arguments
 
-$(TARGET): src/main.c
-	$(CC) $(CFLAGS) src/main.c -o $(TARGET)
+all: $(TARGETS)
+
+hello: src/main.c
+	$(CC) $(CFLAGS) src/main.c -o hello
+
+arguments: src/main_v2.c
+	$(CC) $(CFLAGS) src/main_v2.c -o arguments
 
 clean:
-	rm -f $(TARGET)
+	rm -f $(TARGETS) src/main src/main_v2
+
+.PHONY: all clean
