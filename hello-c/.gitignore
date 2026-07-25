@@ -1,5 +1,7 @@
 # Compiled C executables
 /hello
 /arguments
+/calculator
 /src/main
 /src/main_v2
+/src/calculator
