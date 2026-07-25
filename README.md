@@ -1,8 +1,8 @@
 # c-projects
 My first steps in the C programming language.
 
-On Thusrday, July 16th, I started setting up a learning path for the C programming language.
-I used ChatGPT to generate a plan that combines hands-on tasks with programming theory.
+On Thursday, July 16th, I started setting up a learning path for the C programming language.
+I used ChatGPT to generate a plan that combines hands-on assignments with programming theory.
 
 The planned curriculum looks like this:
 
