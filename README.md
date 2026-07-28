@@ -1,7 +1,8 @@
 # c-projects
-Working through a structured curicculum in the C programming language.
+Working through a structured curriculum in the C programming language.
 
-This repository tracks my first steps in C. I used ChatGPT to generate a learning-plan that combines hands-on assignments with programming theory.
+This repository tracks my first steps in C.
+I used ChatGPT to generate a learning-plan that combines hands-on assignments with programming theory.
 
 The planned curriculum is structured as follows:
 
