@@ -1,10 +1,9 @@
 # c-projects
-My first steps in the C programming language.
+Working through a structured curicculum in the C programming language.
 
-On Thursday, July 16th, I started setting up a learning path for the C programming language.
-I used ChatGPT to generate a plan that combines hands-on assignments with programming theory.
+This repository tracks my first steps in C. I used ChatGPT to generate a learning-plan that combines hands-on assignments with programming theory.
 
-The planned curriculum looks like this:
+The planned curriculum is structured as follows:
 
 |Lesson|New concept                |Mini project               |
 |------|---------------------------|---------------------------|
@@ -21,4 +20,7 @@ The planned curriculum looks like this:
 |11    |Pointers                   |Manipulate arrays manually |
 |12    |Unix-style utility         |`wc` or `cat` clone        |
 
-Every time a lesson is sucessfully completed, I commit and push to this repo.
+Commits are one per completed exercise.
+
+## Environment
+CentOS Stream 10, zsh, pwsh (PowerShell for Linux)
