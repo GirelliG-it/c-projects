@@ -1,27 +1,122 @@
 # c-projects
-Working through a structured curriculum in the C programming language.
 
-This repository tracks my first steps in C.
-I used ChatGPT to generate a learning-plan that combines hands-on assignments with programming theory.
+# C Projects
 
-The planned curriculum is structured as follows:
+This repository documents my progress learning C through a structured series of small, hands-on projects. Each lesson introduces a new concept and builds on the previous exercises.
 
-|Lesson|New concept                |Mini project               |
-|------|---------------------------|---------------------------|
-|1     |Compilation, Make, `main()`|Hello World — completed    |
-|2     |`argc`, `argv`, exit codes |Greeting program           |
-|3     |Variables and arithmetic   |Simple calculator          |
-|4     |Loops                      |Multiplication table       |
-|5     |Functions                  |Refactor calculator        |
-|6     |Header files               |Split project into modules |
-|7     |Strings                    |Tiny `echo` clone          |
-|8     |File I/O                   |Count lines in a file      |
-|9     |Structs                    |Contact or book catalog    |
-|10    |Dynamic memory             |Read arbitrary-length input|
-|11    |Pointers                   |Manipulate arrays manually |
-|12    |Unix-style utility         |`wc` or `cat` clone        |
+I write, compile, test, and debug the programs myself while using guided explanations and code review to strengthen my understanding.
 
-Commits are one per completed exercise.
+## Progress
 
-## Environment
-CentOS Stream 10, zsh, pwsh (PowerShell for Linux)
+| Lesson | Main concept                            | Project                    | Status   |
+| ------ | --------------------------------------- | -------------------------- | -------- |
+| 01     | Compilation, Make, and `main()`         | Hello World                | Complete |
+| 02     | `argc`, `argv`, and loops               | Command-line arguments     | Complete |
+| 03     | Variables, arithmetic, and conditionals | Simple calculator          | Complete |
+| 04     | Loops                                   | Multiplication table       | Next     |
+| 05     | Functions                               | Refactor calculator        | Planned  |
+| 06     | Header files                            | Split project into modules | Planned  |
+| 07     | Strings                                 | Tiny `echo` clone          | Planned  |
+| 08     | File I/O                                | Count lines in a file      | Planned  |
+| 09     | Structs                                 | Contact catalog            | Planned  |
+| 10     | Dynamic memory                          | Arbitrary-length input     | Planned  |
+| 11     | Pointers                                | Manual array manipulation  | Planned  |
+| 12     | Combined fundamentals                   | Tiny Unix utility          | Planned  |
+
+## Repository structure
+
+Each numbered directory contains one lesson and its own Makefile:
+
+```text
+c-projects/
+├── 01-hello-world/
+│   ├── Makefile
+│   └── src/main.c
+├── 02-command-line-arguments/
+│   ├── Makefile
+│   └── src/main.c
+├── 03-simple-calculator/
+│   ├── Makefile
+│   └── src/
+│       ├── basic_calculator.c
+│       └── calculator_zero_safe.c
+└── docs/
+    ├── learning-journey.typ
+    └── learning-journey.pdf
+```
+
+Generated executables are excluded from version control.
+
+## Building and running
+
+The projects require GCC and GNU Make.
+
+Build and run Lesson 1:
+
+```bash
+make -C 01-hello-world
+./01-hello-world/hello
+```
+
+Build and run Lesson 2:
+
+```bash
+make -C 02-command-line-arguments
+./02-command-line-arguments/arguments laptop mouse
+```
+
+Build and run both Lesson 3 programs:
+
+```bash
+make -C 03-simple-calculator
+./03-simple-calculator/basic_calculator
+./03-simple-calculator/calculator_zero_safe
+```
+
+Remove the generated executables from a lesson:
+
+```bash
+make -C 03-simple-calculator clean
+```
+
+## Development environment
+
+* CentOS Stream 10
+* GCC
+* GNU Make
+* Vim
+* Git and GitHub
+* Typst and Okular for documentation
+
+The programs are compiled with:
+
+```text
+-Wall -Wextra -Wpedantic -g
+```
+
+Compiler warnings are treated as problems to investigate rather than noise to ignore.
+
+## Documentation
+
+A more detailed account of the learning process is maintained in Typst:
+
+* [Learning journey PDF](docs/learning-journey.pdf)
+* [Typst source](docs/learning-journey.typ)
+
+The document can be compiled with:
+
+```bash
+typst compile docs/learning-journey.typ
+```
+
+## Learning approach
+
+The repository follows an incremental approach:
+
+1. Introduce one main concept at a time.
+2. Write and test a small program.
+3. Investigate compiler warnings and bugs.
+4. Refactor only after the original version is understood.
+5. Record meaningful progress with Git.
+
+The goal is not merely to produce working programs, but to understand how C source code becomes a compiled executable and how the surrounding development toolchain fits together.
