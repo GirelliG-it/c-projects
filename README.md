@@ -1,5 +1,3 @@
-# c-projects
-
 # C Projects
 
 This repository documents my progress learning C through a structured series of small, hands-on projects. Each lesson introduces a new concept and builds on the previous exercises.
