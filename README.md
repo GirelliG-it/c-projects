@@ -21,26 +21,27 @@ I write, compile, test, and debug the programs myself while using guided explana
 | 11     | Pointers                                | Manual array manipulation  | Planned  |
 | 12     | Combined fundamentals                   | Tiny Unix utility          | Planned  |
 
-## Repository structure
+## Repository structure example
 
 Each numbered directory contains one lesson and its own Makefile:
 
 ```text
 c-projects/
 ├── 01-hello-world/
-│   ├── Makefile
-│   └── src/main.c
 ├── 02-command-line-arguments/
-│   ├── Makefile
-│   └── src/main.c
 ├── 03-simple-calculator/
-│   ├── Makefile
-│   └── src/
-│       ├── basic_calculator.c
-│       └── calculator_zero_safe.c
-└── docs/
-    ├── learning-journey.typ
-    └── learning-journey.pdf
+└── 04-loops/
+    ├── Makefile
+    ├── src/
+    │   └── loop-continue.c
+    └── python/
+        └── loop-continue.py
+powershell/
+└── control-flow/
+    └── loop-continue.ps1
+docs/
+├── learning-journey.typ
+└── learning-journey.pdf
 ```
 
 Generated executables are excluded from version control.
@@ -118,3 +119,13 @@ The repository follows an incremental approach:
 5. Record meaningful progress with Git.
 
 The goal is not merely to produce working programs, but to understand how C source code becomes a compiled executable and how the surrounding development toolchain fits together.
+
+## Comparative exercises
+
+Selected lessons include equivalent implementations in other languages:
+
+- **Python** — comparison with a higher-level general-purpose language
+- **PowerShell** — comparison with shell scripting, objects, and pipelines
+
+These companion exercises reinforce transferable programming concepts while
+keeping C as the primary focus of the project.
