@@ -1,4 +1,4 @@
-# While loop with break
+# while loop with break
 
 i = 0
 
