@@ -1,6 +1,3 @@
-# Basic Python exercises along my C curriculum
-# Every exercise done in C must be replicated in Python
-#
 # if-elif-else
 #
 
