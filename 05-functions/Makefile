@@ -1,7 +1,7 @@
 CC = gcc
 CFLAGS = -Wall -Wextra -Wpedantic -g
 
-TARGETS = function-add function-double function-return-reuse function-void function-void-parameter
+TARGETS = function-add function-double function-return-reuse function-void function-void-parameter calculator-functions
 
 all: $(TARGETS)
 
@@ -19,6 +19,9 @@ function-void: src/function-void.c
 
 function-void-parameter: src/function-void-parameter.c
 	$(CC) $(CFLAGS) src/function-void-parameter.c -o function-void-parameter
+
+calculator-functions: src/calculator-functions.c
+	$(CC) $(CFLAGS) src/calculator-functions.c -o calculator-functions
 
 clean:
 	rm -f $(TARGETS)
