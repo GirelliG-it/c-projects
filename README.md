@@ -12,8 +12,8 @@ I write, compile, test, and debug the programs myself while using guided explana
 | 02     | `argc`, `argv`, and loops               | Command-line arguments     | Complete |
 | 03     | Variables, arithmetic, and conditionals | Simple calculator          | Complete |
 | 04     | Loops                                   | Multiplication table       | Complete |
-| 05     | Functions                               | Refactor calculator        | Next     |
-| 06     | Header files                            | Split project into modules | Planned  |
+| 05     | Functions                               | Refactor calculator        | Complete |    |
+| 06     | Header files                            | Split project into modules | Next     |
 | 07     | Strings                                 | Tiny `echo` clone          | Planned  |
 | 08     | File I/O                                | Count lines in a file      | Planned  |
 | 09     | Structs                                 | Contact catalog            | Planned  |
