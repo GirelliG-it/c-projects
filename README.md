@@ -6,20 +6,29 @@ I write, compile, test, and debug the programs myself while using guided explana
 
 ## Progress
 
-| Lesson | Main concept                            | Project                    | Status   |
-| ------ | --------------------------------------- | -------------------------- | -------- |
-| 01     | Compilation, Make, and `main()`         | Hello World                | Complete |
-| 02     | `argc`, `argv`, and loops               | Command-line arguments     | Complete |
-| 03     | Variables, arithmetic, and conditionals | Simple calculator          | Complete |
-| 04     | Loops                                   | Multiplication table       | Complete |
-| 05     | Functions                               | Refactor calculator        | Next     |
-| 06     | Header files                            | Split project into modules | Planned  |
-| 07     | Strings                                 | Tiny `echo` clone          | Planned  |
-| 08     | File I/O                                | Count lines in a file      | Planned  |
-| 09     | Structs                                 | Contact catalog            | Planned  |
-| 10     | Dynamic memory                          | Arbitrary-length input     | Planned  |
-| 11     | Pointers                                | Manual array manipulation  | Planned  |
-| 12     | Combined fundamentals                   | Tiny Unix utility          | Planned  |
+| Lesson | Main concept                            | Project / focus            | Status      |
+| ------ | --------------------------------------- | -------------------------- | ----------- |
+| 01     | Compilation, Make, and `main()`         | Hello World                | Complete    |
+| 02     | `argc`, `argv`, and loops               | Command-line arguments     | Complete    |
+| 03     | Variables, arithmetic, and conditionals | Simple calculator          | Complete    |
+| 04     | Loops                                   | Multiplication table       | Complete    |
+| 05     | Functions                               | Refactor calculator        | Complete    |
+| 06     | Header files                            | Split project into modules | In progress |
+| 07     | Strings                                 | Tiny `echo` clone          | Planned     |
+| 08     | File I/O                                | Count lines in a file      | Planned     |
+| 09     | Structs                                 | Contact catalog            | Planned     |
+| 10     | Dynamic memory                          | Allocation and lifetime    | Planned     |
+| 11     | Pointer fundamentals                    | Addresses and arrays       | Planned     |
+| 12     | Memory addresses and offsets            | Hex addresses and `sizeof` | Planned     |
+| 13     | Pointer arithmetic                      | Manual memory traversal    | Planned     |
+| 14     | Raw memory and buffers                  | Byte-buffer inspection     | Planned     |
+| 15     | Memory layout and alignment             | Struct layout and padding  | Planned     |
+| 16     | Memory safety                           | Bounds, lifetime, and UB   | Planned     |
+| 17     | Binary file I/O                         | Read and inspect raw bytes | Planned     |
+| 18     | Combined fundamentals                   | Tiny Unix utility          | Planned     |
+
+The later memory-focused lessons build progressively from addresses and pointer fundamentals to offsets, pointer arithmetic, raw byte buffers, alignment, buffer layouts, allocation lifetime, and memory safety.
+These lessons will explicitly distinguish defined behavior from implementation-defined, unspecified, and undefined behavior.
 
 ## Repository structure example
 
