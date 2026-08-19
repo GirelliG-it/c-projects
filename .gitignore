@@ -9,3 +9,7 @@
 /04-loops/loop-*
 /06-header-files/calculator
 /06-header-files/*.o
+/07-arrays/array-basics
+/07-arrays/array-basics-modified
+/07-arrays/array-basics-two
+/_parked/tiny-echo
