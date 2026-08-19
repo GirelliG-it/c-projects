@@ -127,7 +127,7 @@ The calculator was built through separate compilation: each source file was comp
   )
 
 Doing hands-on exercises and learning to reason through Make dependency behavior, compilation/linking stages, and runtime program logic. Also covered topics such as:
-  
+
 - `-c` means: compile and assemble, but stop before linking.
 - `-o` filename means: name the output file filename.
 - `.o` is the conventional extension for an object file.
@@ -136,7 +136,7 @@ Doing hands-on exercises and learning to reason through Make dependency behavior
 == Lesson 7: Arrays and Indexing
 Lesson 7 introduced fixed-size arrays and zero-based indexing in C. I practiced declaring and initializing arrays, reading and modifying individual elements, and traversing arrays with forward and reverse loops. I also used a loop to accumulate a total and learned that partial initialization sets the remaining elements to zero. Most importantly, I learned that accessing an index outside an array’s valid bounds causes undefined behavior.
 
- 
+
 == Comparative exercises
 Selected C exercises are recreated in other languages when the comparison strengthens understanding.
 
