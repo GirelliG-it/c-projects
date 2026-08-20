@@ -7,9 +7,13 @@
 /04-loops/while-loop
 /04-loops/if-elif-else
 /04-loops/loop-*
+/05-functions/function-*
+/05-functions/calculator-functions
 /06-header-files/calculator
 /06-header-files/*.o
 /07-arrays/array-basics
 /07-arrays/array-basics-modified
 /07-arrays/array-basics-two
+/08-objects-sizes-sizeof/array-size-t-experiment
+/08-objects-sizes-sizeof/temperature-tracker
 /_parked/tiny-echo
