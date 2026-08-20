@@ -46,7 +46,7 @@ Each numbered directory contains one lesson and its related source files:
 ├── 05-functions
 ├── 06-header-files
 ├── 07-arrays
-├── 08-objects-sizes-sizeof
+├── 08-object-sizes-sizeof
 ├── docs
 └── _parked
 ```
