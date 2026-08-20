@@ -15,7 +15,7 @@ I write, compile, test, and debug the programs myself while using guided explana
 | 05     | Functions                               | Refactor calculator                                     | Completed   |
 | 06     | Header files                            | Split project into modules                              | Completed   |
 | 07     | Arrays and indexing                     | Bounds, loops, element count                            | Completed   |
-| 08     | Object sizes and `sizeof`               | Array sizing and object representation                  | In Progress |
+| 08     | Object sizes and `sizeof`               | Array sizing and object representation                  | Completed   |
 | 09     | Pointer fundamentals                    | Addresses, `&`, and `*`                                 | Planned     |
 | 10     | Arrays vs. pointers                     | Decay, function parameters, and `sizeof` differences    | Planned     |
 | 11     | Strings                                 | Character arrays, `'\0'`, `strlen()`, and tiny `echo`   | Planned     |
@@ -33,27 +33,22 @@ I write, compile, test, and debug the programs myself while using guided explana
 The later memory-focused lessons build progressively from addresses and pointer fundamentals to offsets, pointer arithmetic, raw byte buffers, alignment, buffer layouts, allocation lifetime, and memory safety.
 These lessons will explicitly distinguish defined behavior from implementation-defined, unspecified, and undefined behavior.
 
-## Repository structure example
+## Repository structure
 
-Each numbered directory contains one lesson and its own Makefile:
+Each numbered directory contains one lesson and its related source files:
 
 ```text
-c-projects/
-├── 01-hello-world/
-├── 02-command-line-arguments/
-├── 03-simple-calculator/
-└── 04-loops/
-    ├── Makefile
-    ├── src/
-    │   └── loop-continue.c
-    └── python/
-        └── loop-continue.py
-powershell/
-└── control-flow/
-    └── loop-continue.ps1
-docs/
-├── learning-journey.typ
-└── learning-journey.pdf
+.
+├── 01-hello-world
+├── 02-command-line-arguments
+├── 03-simple-calculator
+├── 04-loops
+├── 05-functions
+├── 06-header-files
+├── 07-arrays
+├── 08-objects-sizes-sizeof
+├── docs
+└── _parked
 ```
 
 Generated executables are excluded from version control.

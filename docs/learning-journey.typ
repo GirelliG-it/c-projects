@@ -37,8 +37,8 @@ exercises.
 [04], [Loops], [Multiplication table], [Completed],
 [05], [Functions], [Refactor calculator], [Completed],
 [06], [Header files], [Split project into modules], [Completed],
-[07], [Arrays and indexing], [Bounds, loops, element count], [Completed],
-[08], [Object sizes and `sizeof`], [Array sizing and object representation], [Planned],
+[07], [Arrays and Indexing], [Bounds, loops, element count], [Completed],
+[08], [Object sizes and `sizeof`], [Array sizing and object representation], [Completed],
 [09], [Pointer fundamentals], [Addresses, `&`, and `*`], [Planned],
 [10], [Arrays vs. pointers], [Decay, function parameters, and `sizeof` differences], [Planned],
 [11], [Strings], [Character arrays, `'\0'`, `strlen()`, and tiny `echo`], [Planned],
@@ -136,6 +136,10 @@ Doing hands-on exercises and learning to reason through Make dependency behavior
 == Lesson 7: Arrays and Indexing
 Lesson 7 introduced fixed-size arrays and zero-based indexing in C. I practiced declaring and initializing arrays, reading and modifying individual elements, and traversing arrays with forward and reverse loops. I also used a loop to accumulate a total and learned that partial initialization sets the remaining elements to zero. Most importantly, I learned that accessing an index outside an array’s valid bounds causes undefined behavior.
 
+== Lesson 8: Object Sizes and `sizeof`
+
+Lesson 8 introduced the `sizeof` operator, which reports how much storage an object occupies in bytes. I used `sizeof array / sizeof array[0]` to calculate an array’s element count and stored the result in `size_t`, using `%zu` to print it. Calculated counts allowed forward and reverse loops to adapt when the array changed. I also learned that `size_t` is unsigned, so a reverse loop must stop before decrementing zero and wrapping to a very large value.
+
 
 == Comparative exercises
 Selected C exercises are recreated in other languages when the comparison strengthens understanding.
@@ -149,4 +153,4 @@ C remains the primary learning track.
 
 
 == Current position
-Arrays and Indexing
+Object Sizes and `sizeof`
