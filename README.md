@@ -16,7 +16,7 @@ I write, compile, test, and debug the programs myself while using guided explana
 | 06     | Header files                            | Split project into modules                              | Completed   |
 | 07     | Arrays and indexing                     | Bounds, loops, element count                            | Completed   |
 | 08     | Object sizes and `sizeof`               | Array sizing and object representation                  | Completed   |
-| 09     | Pointer fundamentals                    | Addresses, `&`, and `*`                                 | Planned     |
+| 09     | Pointer fundamentals                    | Addresses, `&`, and `*`                                 | Completed   |
 | 10     | Arrays vs. pointers                     | Decay, function parameters, and `sizeof` differences    | Planned     |
 | 11     | Strings                                 | Character arrays, `'\0'`, `strlen()`, and tiny `echo`   | Planned     |
 | 12     | File I/O                                | Count lines in a file                                   | Planned     |
@@ -46,12 +46,16 @@ Each numbered directory contains one lesson and its related source files:
 ├── 05-functions
 ├── 06-header-files
 ├── 07-arrays
-├── 08-object-sizes-sizeof
+├── 08-object-sizes-and-sizeof
+├── 09-pointer-fundamentals
 ├── docs
-└── _parked
 ```
 
 Generated executables are excluded from version control.
+
+## Local drafts
+
+Local drafts live in an unversioned _parked/_ until lesson 11.
 
 ## Building and running
 
