@@ -25,6 +25,9 @@
 /09-pointer-fundamentals/pointers
 /09-pointer-fundamentals/pointers-rectangle-width
 /09-pointer-fundamentals/src/pointers=rectangle-perimeter
+/_parked
+
+# Local drafts kept out of version control until lesson 11 _parked/
 
 # Object files and preprocessor output
 *.o
