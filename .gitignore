@@ -1,19 +1,46 @@
 # Compiled C executables
 /01-hello-world/hello
+/01-hello-world/labs/include-demo/include-demo
 /02-command-line-arguments/arguments
 /03-simple-calculator/basic_calculator
 /03-simple-calculator/calculator_zero_safe
 /04-loops/for-loop
 /04-loops/while-loop
 /04-loops/if-elif-else
-/04-loops/loop-*
-/05-functions/function-*
+/04-loops/loop-break
+/04-loops/loop-continue
+/04-loops/loop-return
+/05-functions/function-add
+/05-functions/function-double
+/05-functions/function-return-reuse
+/05-functions/function-void
+/05-functions/function-void-parameter
 /05-functions/calculator-functions
 /06-header-files/calculator
-/06-header-files/*.o
 /07-arrays/array-basics
 /07-arrays/array-basics-modified
 /07-arrays/array-basics-two
-/08-object-sizes-sizeof/array-size-t-experiment
-/08-object-sizes-sizeof/temperature-tracker
-/_parked/tiny-echo
+/08-object-sizes-and-sizeof/array-size-t-experiment
+/08-object-sizes-and-sizeof/temperature-tracker
+/09-pointer-fundamentals/pointers
+/09-pointer-fundamentals/pointers-rectangle-width
+/09-pointer-fundamentals/src/pointers=rectangle-perimeter
+/_parked
+
+# Local drafts kept out of version control until lesson 11 _parked/
+
+# Object files and preprocessor output
+*.o
+*.i
+
+# Editor swap files
+[._]*.sw[po]
+
+# Generated diagrams (Mermaid .mmd sources ARE tracked, .png renders are not)
+docs/*.png
+
+# Rust build output (phase 7)
+**/target/
+
+# Local retrieval-practice trophies, never versioned
+_retrieval_exercises/
